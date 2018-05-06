@@ -1,0 +1,151 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.Sidebar {
+  width: 250px;
+  height: 800px;
+  float: left;
+}
+
+.Content {
+  height: 800px;
+  padding-left:10px;
+}
+
+.CatDetail {
+  height:150px;
+}
+
+.CatBanner {
+  float: left;
+}
+
+.CatDesc {
+  height:140px;
+  border:1px solid;
+  padding:5px 0px 5px 10px;
+}
+
+.ProductListing {
+  float: left;
+  width: 200px;
+  height: 300px;
+  margin-left:20px;
+  border: 1px solid;
+}
+
+.ProductSection {
+   padding-top: 40px;
+}
+
+.Breadcrumb {
+  float: left;
+}
+.Pagination {
+  float: right;
+}
+
+/*  css menu  */
+#cssmenu {
+  background: #333;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 12em;
+  padding-right:10px;
+}
+#cssmenu li {
+  font: 67.5% "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#cssmenu a {
+  background: #333;
+  border-bottom: 1px solid #393939;
+  color: #ccc;
+  display: block;
+  margin: 0;
+  padding: 8px 12px;
+  text-decoration: none;
+  font-weight: normal;
+}
+#cssmenu a:hover {
+  background: #2580a2;
+  color: #fff;
+  padding-bottom: 8px;
+}
+#cssmenu li.active a {
+  background: #2580a2;
+  color: #fff;
+  padding-bottom: 8px;
+}
+
+
+/*  css pagination  */
+
+.PaginationSection {
+  padding-right: 50px;
+}
+
+.pagination {
+  background: #333;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 12em;
+  padding-right:10px;
+}
+.pagination li {
+  font: 67.5% "Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.pagination a {
+  background: #333;
+  border-bottom: 1px solid #393939;
+  color: #ccc;
+  display: block;
+  margin: 0;
+  padding: 8px 12px;
+  text-decoration: none;
+  font-weight: normal;
+}
+.pagination a:hover {
+  background: #2580a2;
+  color: #fff;
+  padding-bottom: 8px;
+}
+.pagination li.active a {
+  background: #2580a2;
+  color: #fff;
+  padding-bottom: 8px;
+}
+
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
